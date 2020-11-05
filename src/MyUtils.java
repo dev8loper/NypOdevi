@@ -37,8 +37,8 @@ public class MyUtils {
     üstte ki fonksiyonun çıktısı diğer fonk. için girdi olddu
     2: f(x) = 1 / (1 + e^x)
      */
-    public static double[] islemA(int dizi[]) {
-        double cikti[] = new double[dizi.length];
+    public static double[] islemA(int[] dizi) {
+        double[] cikti = new double[dizi.length];
         int i = 0;
         for (double x: dizi) {
             x = 3 * Math.pow(x, 2) - 2 * Math.pow(Math.E, x) + Math.sqrt(x);
